@@ -18,12 +18,14 @@ p.stream {
   padding-bottom: 10px;
   max-width: 100%;
 }
-img.logo {
-  width: 45em;
-  position: fixed;
-  margin: 20px;
-  top: 0; bottom:0; left: 0; right:0;
-  margin: auto;
+.fb-like {
+  padding: 5em;
+}
+.logo {
+  display: inline;
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
 }
 .social img{
     width: 50px;
