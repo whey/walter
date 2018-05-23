@@ -28,3 +28,7 @@ p.logo {
 a, a:hover, a:active, a:visited, strong {
   color: #000;
 }
+._2tga {
+    background: #a155af !important;
+    border: 1px solid #9529a9 !important;
+  }
