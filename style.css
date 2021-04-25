@@ -29,7 +29,7 @@ p.stream {
 }
 .social img{
     width: 50px;
-    padding-left: 10px;
+
 }
 }
 p.logo {
@@ -38,7 +38,6 @@ p.logo {
 }
 .social img{
     width: 5em;
-    padding-left: 5em;
 }
 .footer {
       position: relative;
@@ -76,7 +75,7 @@ a, a:hover, a:active, a:visited, strong {
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 40px 20px 40px;
     text-decoration: none;
   }
 
@@ -88,4 +87,22 @@ a, a:hover, a:active, a:visited, strong {
     background-image: -o-linear-gradient(top, #e23cfc, #81179c);
     background-image: linear-gradient(to bottom, #e23cfc, #81179c);
     text-decoration: none;
+  }
+
+  button.butn {
+    margin-top: 2em;
+    }
+
+  .social {
+    margin: auto;
+    width: 15em;
+    padding-top: 3em;
+    }
+
+  img.social-left {
+      float: left;
+  }
+
+  img.social-left {
+    float: right;
   }
