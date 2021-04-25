@@ -74,7 +74,7 @@ a, a:hover, a:active, a:visited, strong {
     border-radius: 5px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 40px;
     padding: 20px 40px 20px 40px;
     text-decoration: none;
   }
@@ -90,7 +90,7 @@ a, a:hover, a:active, a:visited, strong {
   }
 
   button.butn {
-    margin-top: 2em;
+    margin-top: 1em;
     }
 
   .social {
@@ -100,7 +100,7 @@ a, a:hover, a:active, a:visited, strong {
     }
 
   img.social-left {
-      float: left;
+    float: left;
   }
 
   img.social-left {
