@@ -5,6 +5,7 @@ body {
   font-family: 'Poppins', "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
   color: #a256af;
   margin:0 auto;
+  overflow: hidden; 
 }
 
 .holder {
@@ -59,6 +60,8 @@ a, a:hover, a:active, a:visited, strong {
     left: 0;
     width: 100vw;
     height: 100vh;
+	z-index:999999;
+	overflow: auto;
 }
 
 .videoWrapper {
