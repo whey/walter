@@ -83,13 +83,14 @@ a, a:hover, a:active, a:visited, strong {
     and (min-device-width : 320px) 
     and (max-device-width : 480px){ 
       .mobileShow {display: inline; max-height: 100vh;overflow: hidden;flex-grow: 1; border: none; margin: 0; padding: 0;}
+	  p.logo {margin-top: 7em;width: 35em;}
   }
 
  * {
 	 box-sizing: border-box;
 }
  .button-container {
-	 position: relative;
+   position: relative;
    width: 20em;
    margin: 2em;
 }
@@ -97,15 +98,15 @@ a, a:hover, a:active, a:visited, strong {
 	 color: #a256af;
 	 padding: 10px 20px;
 	 font-family: 'Poppins', sans-serif;
-	 font-size: 2.5em;
+	 font-size: 2em;
 	 background-color: #fff;
 	 border: 5px solid #a256af;
 	 border-radius: 20px;
 	 cursor: pointer;
 	 position: relative;
 	 box-sizing: border-box;
-   height: 5em;
-   width: 8em
+     height: 6em;
+     width: 10em;
 }
  .button-container:hover .dog {
 	 transform: translate(20px, -55px) rotate(15deg);
