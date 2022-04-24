@@ -89,7 +89,7 @@ a, a:hover, a:active, a:visited, strong {
     and (max-device-width : 480px){ 
       .mobileShow {display: inline; max-height: 100vh;overflow: hidden;flex-grow: 1; border: none; margin: 0; padding: 0;}
 	  p.logo {margin-top: 150px;width: 35em; padding-bottom: 3em; padding-top: 5em;}
-	  .social {padding-bottom: 25em;}
+	  p.social {padding-bottom: 25em;}
   }
 
  * {
