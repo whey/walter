@@ -23,10 +23,15 @@ p.stream {
 }
 p.logo {
   margin-top: 3em;
+  margin-bottom: 5em;
   width: 30em;
 }
+p.social {
+  padding:7em 0 20em 0;
+  width: 30em;	
+}
 .social img{
-    width: 5em;
+    width: 10em;
 }
 .footer {
   position: fixed;
@@ -50,7 +55,7 @@ a, a:hover, a:active, a:visited, strong {
     float: left;
   }
 
-  img.social-left {
+  img.social-right {
     float: right;
   }
 
