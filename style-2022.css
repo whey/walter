@@ -5,8 +5,13 @@ body {
   font-family: 'Poppins', "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
   color: #a256af;
   margin:0 auto;
+}
+
+.holder {
+  margin:0 auto;
   overflow: hidden; 
 }
+
 p.contact {
   font-size: 20px;
 }
