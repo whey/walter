@@ -83,7 +83,7 @@ a, a:hover, a:active, a:visited, strong {
     and (min-device-width : 320px) 
     and (max-device-width : 480px){ 
       .mobileShow {display: inline; max-height: 100vh;overflow: hidden;flex-grow: 1; border: none; margin: 0; padding: 0;}
-	  p.logo {margin-top: 7em;width: 35em;}
+	  p.logo {margin-top: 125px;width: 35em;}
   }
 
  * {
@@ -91,7 +91,7 @@ a, a:hover, a:active, a:visited, strong {
 }
  .button-container {
    position: relative;
-   width: 20/em;
+   width: 20em;
    margin: 2em;
 }
  .button-container button {
