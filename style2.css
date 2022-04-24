@@ -449,3 +449,10 @@ a, a:hover, a:active, a:visited, strong {
 	 transition: 0.3s top cubic-bezier(0.33, 1, 0.68, 1);
 }
  
+.lightwidget__posts--image-format-square .lightwidget__image, .lightwidget__image {
+  border: 0 !important;
+  height: 100% !important;
+  max-width: auto !important;
+  width: auto!important;
+
+}
