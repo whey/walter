@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-html, body {
+body {
   background:#ede8f1;
   font-family: 'Poppins', "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
   color: #a256af;
@@ -69,20 +69,12 @@ a, a:hover, a:active, a:visited, strong {
   top: 0; 
 }
 
-.videoWrapperMobile iframe {
-	border: 0;
-	left: 0;
-	position: absolute;
-	top: 100; 
-  }
-
 .mobileShow {display: none;} 
   /* Smartphone Portrait and Landscape */ 
   @media only screen 
     and (min-device-width : 320px) 
     and (max-device-width : 480px){ 
-      .mobileShow {display: inline; max-height: 100vh;overflow: hidden;flex-grow: 1; border: none; margin: 0; padding: 0; }
-	  .videoWrapperMobile {height: 100vh; position:static;}
+      .mobileShow {display: inline; max-height: 100vh;overflow: hidden;flex-grow: 1; border: none; margin: 0; padding: 0;}
   }
 
  * {
@@ -390,4 +382,3 @@ a, a:hover, a:active, a:visited, strong {
 	 right: 40px;
 	 transition: 0.3s top cubic-bezier(0.33, 1, 0.68, 1);
 }
- 
