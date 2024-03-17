@@ -6,13 +6,12 @@ body {
   color: #a256af;
   margin:0 auto;
   overflow: hidden; 
+  position:relative
 }
-
 .holder {
   margin:0 auto;
   overflow: hidden; 
 }
-
 p.contact {
   font-size: 20px;
 }
@@ -24,14 +23,14 @@ p.stream {
 p.logo {
   margin-top: 3em;
   margin-bottom: 5em;
-  width: 30em;
+  width: 20em;
 }
 p.social {
   padding:7em 0 20em 0;
-  width: 30em;	
+  width: 15em;	
 }
 .social img{
-    width: 10em;
+    width: 5em;
 }
 .footer {
   position: fixed;
@@ -43,22 +42,18 @@ p.social {
 a, a:hover, a:active, a:visited, strong {
   color: #a256af;
 }
-
   .social {
     margin: auto;
     width: 15em;
     padding-top: 3em;
     padding-bottom: 3em;
     }
-
   img.social-left {
     float: left;
   }
-
   img.social-right {
     float: right;
   }
-
 .bar{
     position: absolute;
     top: 0;
@@ -68,30 +63,26 @@ a, a:hover, a:active, a:visited, strong {
 	z-index:999999;
 	overflow: auto;
 }
-
 .videoWrapper {
-  overflow: hidden;
-  /* 16:9 aspect ratio */
-  padding-top: 100%;
-  position: relative;
-}
-.videoWrapper iframe {
-  border: 0;
-  left: 0;
-  position: absolute;
-  top: 0; 
-}
-
-.mobileShow {display: none;} 
-  /* Smartphone Portrait and Landscape */ 
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline; max-height: 100vh;overflow: hidden;flex-grow: 1; border: none; margin: 0; padding: 0;}
-	  p.logo {margin-top: 150px;width: 35em; padding-bottom: 3em; padding-top: 5em;}
-	  p.social {padding-bottom: 25em;}
+	position: relative;
+	width: 100vw;
+	height: 100vh; /* Full viewport height */
+	overflow: hidden;
   }
-
+  iframe.lightwidget-widget {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; /* Fills the width of .videoWrapper */
+	height: 100%; /* Fills the height of .videoWrapper */
+	border: none;
+	overflow: hidden;
+  }
+  @media only screen and (max-width: 768px) { 
+	  p.logo {margin-top: 150px; padding-bottom: 3em; padding-top: 5em;}
+	  p.social {padding-bottom: 10em;}
+	  iframe.lightwidget-widget {width: 155% !important;position: absolute;left: 50%;transform: translateX(-50%);}
+	}
  * {
 	 box-sizing: border-box;
 }
@@ -397,5 +388,3 @@ a, a:hover, a:active, a:visited, strong {
 	 right: 40px;
 	 transition: 0.3s top cubic-bezier(0.33, 1, 0.68, 1);
 }
-
-
